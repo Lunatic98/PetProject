@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Autofac/6.4.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "compile": {
+          "lib/net6.0/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Autofac.dll": {}
+        }
+      },
       "AutoMapper/11.0.1": {
         "type": "package",
         "dependencies": {
@@ -12,6 +24,28 @@
         },
         "runtime": {
           "lib/netstandard2.1/AutoMapper.dll": {}
+        }
+      },
+      "FluentValidation/11.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {}
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/11.1.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "11.1.0",
+          "Microsoft.Extensions.Dependencyinjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
         }
       },
       "MediatR/10.0.1": {
@@ -33,6 +67,32 @@
         },
         "runtime": {
           "lib/netstandard2.0/MediatR.Contracts.dll": {}
+        }
+      },
+      "MediatR.Extensions.Autofac.DependencyInjection/8.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "6.4.0",
+          "MediatR": "10.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/MediatR.Extensions.Autofac.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.Extensions.Autofac.DependencyInjection.dll": {}
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjection/10.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MediatR": "10.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
       "Microsoft.CSharp/4.7.0": {
@@ -242,7 +302,11 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper": "11.0.1",
+          "FluentValidation": "11.1.0",
+          "FluentValidation.DependencyInjectionExtensions": "11.1.0",
           "MediatR": "10.0.1",
+          "MediatR.Extensions.Autofac.DependencyInjection": "8.1.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1",
           "Microsoft.EntityFrameworkCore": "6.0.6",
           "PetProject.Domain": "1.0.0"
         },
@@ -258,7 +322,11 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper": "11.0.1",
+          "FluentValidation": "11.1.0",
+          "FluentValidation.DependencyInjectionExtensions": "11.1.0",
           "MediatR": "10.0.1",
+          "MediatR.Extensions.Autofac.DependencyInjection": "8.1.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1",
           "Microsoft.EntityFrameworkCore": "6.0.6"
         },
         "compile": {
@@ -271,6 +339,27 @@
     }
   },
   "libraries": {
+    "Autofac/6.4.0": {
+      "sha512": "tkFxl6wAPuwVhrlN8wuNADnd+k2tv4ReP7ZZSL0vjfcN0RcfC9v25ogxK6b03HC7D4NwWjSLf1G/zTG8Bw43wQ==",
+      "type": "package",
+      "path": "autofac/6.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "autofac.6.4.0.nupkg.sha512",
+        "autofac.nuspec",
+        "icon.png",
+        "lib/net5.0/Autofac.dll",
+        "lib/net5.0/Autofac.xml",
+        "lib/net6.0/Autofac.dll",
+        "lib/net6.0/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.xml",
+        "lib/netstandard2.1/Autofac.dll",
+        "lib/netstandard2.1/Autofac.xml"
+      ]
+    },
     "AutoMapper/11.0.1": {
       "sha512": "WIadGC1pIwbnyTubvI577p3F++Bsj9q2Q3OaAc1I0QS+JhupN1xkdrPBhI9bPIeg63zM81tZplUNYkqU1HE5jQ==",
       "type": "package",
@@ -284,6 +373,44 @@
         "icon.png",
         "lib/netstandard2.1/AutoMapper.dll",
         "lib/netstandard2.1/AutoMapper.xml"
+      ]
+    },
+    "FluentValidation/11.1.0": {
+      "sha512": "Ld7w+2jOmnhQqFkngEGuEWTRa5j6u4Xzli7jKxRtbA5PtuHHcpin01qxvxYL0LomeJuzRMGAOURu2rKONdjKQA==",
+      "type": "package",
+      "path": "fluentvalidation/11.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.1.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "FluentValidation.DependencyInjectionExtensions/11.1.0": {
+      "sha512": "M9U2hLZc8bx0JthQKsN9SVgQSHJeLMcSV/uCmJ23U+/7HCSeOYD4OXoF+p5U3bLGz6Yp7h0/0XbSL+Qv2S38EQ==",
+      "type": "package",
+      "path": "fluentvalidation.dependencyinjectionextensions/11.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.dependencyinjectionextensions.11.1.0.nupkg.sha512",
+        "fluentvalidation.dependencyinjectionextensions.nuspec",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.xml"
       ]
     },
     "MediatR/10.0.1": {
@@ -314,6 +441,33 @@
         "lib/netstandard2.0/MediatR.Contracts.xml",
         "mediatr.contracts.1.0.1.nupkg.sha512",
         "mediatr.contracts.nuspec"
+      ]
+    },
+    "MediatR.Extensions.Autofac.DependencyInjection/8.1.0": {
+      "sha512": "SykJilnNkjzf+Gi1idJR4z5vfJlKoxtdHH7opfMv7Ti6LrqJuf/LSAjFI3g1VZEAjVaymoFshniIcS+zrCP4Tg==",
+      "type": "package",
+      "path": "mediatr.extensions.autofac.dependencyinjection/8.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/netstandard2.1/MediatR.Extensions.Autofac.DependencyInjection.dll",
+        "lib/netstandard2.1/MediatR.Extensions.Autofac.DependencyInjection.pdb",
+        "mediatr.extensions.autofac.dependencyinjection.8.1.0.nupkg.sha512",
+        "mediatr.extensions.autofac.dependencyinjection.nuspec"
+      ]
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/10.0.1": {
+      "sha512": "mYdfMvpkahCAj4tRfBoeMlUBZa2WthaONdQ4y5TtIyxcZYb5e7AE7c1eITTZVWcQhguxvD8AdExdaiAW6RhrVA==",
+      "type": "package",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/10.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll",
+        "mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
+        "mediatr.extensions.microsoft.dependencyinjection.nuspec"
       ]
     },
     "Microsoft.CSharp/4.7.0": {
@@ -722,6 +876,11 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper >= 11.0.1",
+      "FluentValidation >= 11.1.0",
+      "FluentValidation.DependencyInjectionExtensions >= 11.1.0",
+      "MediatR >= 10.0.1",
+      "MediatR.Extensions.Autofac.DependencyInjection >= 8.1.0",
+      "MediatR.Extensions.Microsoft.DependencyInjection >= 10.0.1",
       "PetProject.DataAcess >= 1.0.0"
     ]
   },
@@ -732,11 +891,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.Application\\PetProject.Application.csproj",
+      "projectUniqueName": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.Application\\PetProject.Application.csproj",
       "projectName": "PetProject.Application",
-      "projectPath": "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.Application\\PetProject.Application.csproj",
+      "projectPath": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.Application\\PetProject.Application.csproj",
       "packagesPath": "C:\\Users\\aidar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.Application\\obj\\",
+      "outputPath": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -757,8 +916,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.DataAcess\\PetProject.DataAcess.csproj": {
-              "projectPath": "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.DataAcess\\PetProject.DataAcess.csproj"
+            "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.DataAcess\\PetProject.DataAcess.csproj": {
+              "projectPath": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.DataAcess\\PetProject.DataAcess.csproj"
             }
           }
         }
@@ -776,6 +935,26 @@
           "AutoMapper": {
             "target": "Package",
             "version": "[11.0.1, )"
+          },
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[11.1.0, )"
+          },
+          "FluentValidation.DependencyInjectionExtensions": {
+            "target": "Package",
+            "version": "[11.1.0, )"
+          },
+          "MediatR": {
+            "target": "Package",
+            "version": "[10.0.1, )"
+          },
+          "MediatR.Extensions.Autofac.DependencyInjection": {
+            "target": "Package",
+            "version": "[8.1.0, )"
+          },
+          "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[10.0.1, )"
           }
         },
         "imports": [

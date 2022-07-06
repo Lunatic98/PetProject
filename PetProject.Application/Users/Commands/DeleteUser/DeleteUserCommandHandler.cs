@@ -22,7 +22,7 @@ namespace PetProject.Application.Users.Commands.DeleteUser
             }
 
             _db.Users.Remove(entity);
-            _db.SaveChangesAsync(cancellationToken);
+            await _db.SaveChangesAsync(cancellationToken);
 
             return Unit.Value;
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject\\PetProject.csproj": {}
+    "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject\\PetProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.Application\\PetProject.Application.csproj": {
+    "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.Application\\PetProject.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.Application\\PetProject.Application.csproj",
+        "projectUniqueName": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.Application\\PetProject.Application.csproj",
         "projectName": "PetProject.Application",
-        "projectPath": "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.Application\\PetProject.Application.csproj",
+        "projectPath": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.Application\\PetProject.Application.csproj",
         "packagesPath": "C:\\Users\\aidar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.Application\\obj\\",
+        "outputPath": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.DataAcess\\PetProject.DataAcess.csproj": {
-                "projectPath": "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.DataAcess\\PetProject.DataAcess.csproj"
+              "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.DataAcess\\PetProject.DataAcess.csproj": {
+                "projectPath": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.DataAcess\\PetProject.DataAcess.csproj"
               }
             }
           }
@@ -51,6 +51,26 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[11.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Autofac.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
             }
           },
           "imports": [
@@ -72,14 +92,14 @@
         }
       }
     },
-    "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.Core\\PetProject.Core.csproj": {
+    "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.Core\\PetProject.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.Core\\PetProject.Core.csproj",
+        "projectUniqueName": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.Core\\PetProject.Core.csproj",
         "projectName": "PetProject.Core",
-        "projectPath": "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.Core\\PetProject.Core.csproj",
+        "projectPath": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.Core\\PetProject.Core.csproj",
         "packagesPath": "C:\\Users\\aidar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.Core\\obj\\",
+        "outputPath": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -100,14 +120,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.Application\\PetProject.Application.csproj": {
-                "projectPath": "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.Application\\PetProject.Application.csproj"
+              "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.Application\\PetProject.Application.csproj": {
+                "projectPath": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.Application\\PetProject.Application.csproj"
               },
-              "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.DataAcess\\PetProject.DataAcess.csproj": {
-                "projectPath": "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.DataAcess\\PetProject.DataAcess.csproj"
+              "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.DataAcess\\PetProject.DataAcess.csproj": {
+                "projectPath": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.DataAcess\\PetProject.DataAcess.csproj"
               },
-              "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.Domain\\PetProject.Domain.csproj": {
-                "projectPath": "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.Domain\\PetProject.Domain.csproj"
+              "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.Domain\\PetProject.Domain.csproj": {
+                "projectPath": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.Domain\\PetProject.Domain.csproj"
               }
             }
           }
@@ -126,7 +146,23 @@
               "target": "Package",
               "version": "[11.0.1, )"
             },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
             "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Autofac.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[10.0.1, )"
             },
@@ -154,14 +190,14 @@
         }
       }
     },
-    "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.DataAcess\\PetProject.DataAcess.csproj": {
+    "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.DataAcess\\PetProject.DataAcess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.DataAcess\\PetProject.DataAcess.csproj",
+        "projectUniqueName": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.DataAcess\\PetProject.DataAcess.csproj",
         "projectName": "PetProject.DataAcess",
-        "projectPath": "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.DataAcess\\PetProject.DataAcess.csproj",
+        "projectPath": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.DataAcess\\PetProject.DataAcess.csproj",
         "packagesPath": "C:\\Users\\aidar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.DataAcess\\obj\\",
+        "outputPath": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.DataAcess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -182,8 +218,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.Domain\\PetProject.Domain.csproj": {
-                "projectPath": "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.Domain\\PetProject.Domain.csproj"
+              "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.Domain\\PetProject.Domain.csproj": {
+                "projectPath": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.Domain\\PetProject.Domain.csproj"
               }
             }
           }
@@ -202,7 +238,23 @@
               "target": "Package",
               "version": "[11.0.1, )"
             },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
             "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Autofac.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[10.0.1, )"
             },
@@ -230,14 +282,14 @@
         }
       }
     },
-    "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.Domain\\PetProject.Domain.csproj": {
+    "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.Domain\\PetProject.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.Domain\\PetProject.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.Domain\\PetProject.Domain.csproj",
         "projectName": "PetProject.Domain",
-        "projectPath": "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.Domain\\PetProject.Domain.csproj",
+        "projectPath": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.Domain\\PetProject.Domain.csproj",
         "packagesPath": "C:\\Users\\aidar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.Domain\\obj\\",
+        "outputPath": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -274,7 +326,23 @@
               "target": "Package",
               "version": "[11.0.1, )"
             },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
             "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Autofac.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[10.0.1, )"
             },
@@ -302,14 +370,14 @@
         }
       }
     },
-    "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject\\PetProject.csproj": {
+    "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject\\PetProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject\\PetProject.csproj",
+        "projectUniqueName": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject\\PetProject.csproj",
         "projectName": "PetProject",
-        "projectPath": "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject\\PetProject.csproj",
+        "projectPath": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject\\PetProject.csproj",
         "packagesPath": "C:\\Users\\aidar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject\\obj\\",
+        "outputPath": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -330,14 +398,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.Core\\PetProject.Core.csproj": {
-                "projectPath": "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.Core\\PetProject.Core.csproj"
+              "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.Core\\PetProject.Core.csproj": {
+                "projectPath": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.Core\\PetProject.Core.csproj"
               },
-              "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.DataAcess\\PetProject.DataAcess.csproj": {
-                "projectPath": "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.DataAcess\\PetProject.DataAcess.csproj"
+              "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.DataAcess\\PetProject.DataAcess.csproj": {
+                "projectPath": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.DataAcess\\PetProject.DataAcess.csproj"
               },
-              "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.Domain\\PetProject.Domain.csproj": {
-                "projectPath": "C:\\Users\\aidar\\source\\repos\\PetProject\\PetProject.Domain\\PetProject.Domain.csproj"
+              "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.Domain\\PetProject.Domain.csproj": {
+                "projectPath": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.Domain\\PetProject.Domain.csproj"
               }
             }
           }
@@ -356,7 +424,23 @@
               "target": "Package",
               "version": "[11.0.1, )"
             },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
             "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Autofac.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[10.0.1, )"
             },

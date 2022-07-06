@@ -27,7 +27,7 @@ namespace PetProject.Application.Users.Queries.GetUserDetails
         {
             var entity = await _db.Users.FirstOrDefaultAsync(user =>
             user.Id == request.Id, cancellationToken);
-            if (entity == null || entity.Id != request.Id)
+            if (entity == null)
             {
                 throw new NotFoundException(nameof(User), request.Id);
             }
