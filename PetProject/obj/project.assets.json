@@ -368,47 +368,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "PetProject.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "AutoMapper": "11.0.1",
-          "FluentValidation": "11.1.0",
-          "FluentValidation.DependencyInjectionExtensions": "11.1.0",
-          "MediatR": "10.0.1",
-          "MediatR.Extensions.Autofac.DependencyInjection": "8.1.0",
-          "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1",
-          "PetProject.DataAcess": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/PetProject.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PetProject.Application.dll": {}
-        }
-      },
-      "PetProject.Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "AutoMapper": "11.0.1",
-          "FluentValidation": "11.1.0",
-          "FluentValidation.DependencyInjectionExtensions": "11.1.0",
-          "MediatR": "10.0.1",
-          "MediatR.Extensions.Autofac.DependencyInjection": "8.1.0",
-          "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1",
-          "Microsoft.EntityFrameworkCore": "6.0.6",
-          "PetProject.Application": "1.0.0",
-          "PetProject.DataAcess": "1.0.0",
-          "PetProject.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/PetProject.Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PetProject.Core.dll": {}
-        }
-      },
       "PetProject.DataAcess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1099,16 +1058,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "PetProject.Application/1.0.0": {
-      "type": "project",
-      "path": "../PetProject.Application/PetProject.Application.csproj",
-      "msbuildProject": "../PetProject.Application/PetProject.Application.csproj"
-    },
-    "PetProject.Core/1.0.0": {
-      "type": "project",
-      "path": "../PetProject.Core/PetProject.Core.csproj",
-      "msbuildProject": "../PetProject.Core/PetProject.Core.csproj"
-    },
     "PetProject.DataAcess/1.0.0": {
       "type": "project",
       "path": "../PetProject.DataAcess/PetProject.DataAcess.csproj",
@@ -1129,7 +1078,6 @@
       "MediatR.Extensions.Autofac.DependencyInjection >= 8.1.0",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 10.0.1",
       "Microsoft.EntityFrameworkCore >= 6.0.6",
-      "PetProject.Core >= 1.0.0",
       "PetProject.DataAcess >= 1.0.0",
       "PetProject.Domain >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
@@ -1167,9 +1115,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.Core\\PetProject.Core.csproj": {
-              "projectPath": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.Core\\PetProject.Core.csproj"
-            },
             "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.DataAcess\\PetProject.DataAcess.csproj": {
               "projectPath": "C:\\Users\\aidar\\Documents\\PetProject\\PetProject\\PetProject.DataAcess\\PetProject.DataAcess.csproj"
             },
