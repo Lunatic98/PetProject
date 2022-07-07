@@ -1,23 +1,19 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PetProject.DataAcess;
+using PetProject.Application.Users.Queries.GetUserList;
 
 namespace PetProject.Controllers
 {
-    [Route("api/[controller]")]
-    public class UserController : ControllerBase
+    public class UserController : BaseController
     {
-        private readonly PetProjectDbContext _db;
-        public UserController(PetProjectDbContext db)
+        [HttpGet]
+        public async Task<ActionResult<UserListVm>> GetAll()
         {
-            _db = db;
-        }
-        [HttpPost]
-        public async Task<IActionResult> Register(string name, )
-        {
-            await _db.Users.AddAsync(new Domain.Entity.User({ 
-                Name=name,
-
-            }))
+            var query = new GetUserListQuery()
+            {
+                Id = Id
+            };
+            var vm = await Mediator.Send(query);
+            return Ok(vm);
         }
     }
 }

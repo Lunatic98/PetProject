@@ -1,0 +1,5 @@
+C:\Users\aidar\Documents\PetProject\PetProject\PetProject.DataAcess\obj\Debug\net6.0\PetProject.DataAcess.csproj.AssemblyReference.cache
+C:\Users\aidar\Documents\PetProject\PetProject\PetProject.DataAcess\obj\Debug\net6.0\PetProject.DataAcess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aidar\Documents\PetProject\PetProject\PetProject.DataAcess\obj\Debug\net6.0\PetProject.DataAcess.AssemblyInfoInputs.cache
+C:\Users\aidar\Documents\PetProject\PetProject\PetProject.DataAcess\obj\Debug\net6.0\PetProject.DataAcess.AssemblyInfo.cs
+C:\Users\aidar\Documents\PetProject\PetProject\PetProject.DataAcess\obj\Debug\net6.0\PetProject.DataAcess.csproj.CoreCompileInputs.cache

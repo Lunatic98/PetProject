@@ -1,0 +1,5 @@
+C:\Users\aidar\Documents\PetProject\PetProject\PetProject.Domain\obj\Debug\net6.0\PetProject.Domain.csproj.AssemblyReference.cache
+C:\Users\aidar\Documents\PetProject\PetProject\PetProject.Domain\obj\Debug\net6.0\PetProject.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aidar\Documents\PetProject\PetProject\PetProject.Domain\obj\Debug\net6.0\PetProject.Domain.AssemblyInfoInputs.cache
+C:\Users\aidar\Documents\PetProject\PetProject\PetProject.Domain\obj\Debug\net6.0\PetProject.Domain.AssemblyInfo.cs
+C:\Users\aidar\Documents\PetProject\PetProject\PetProject.Domain\obj\Debug\net6.0\PetProject.Domain.csproj.CoreCompileInputs.cache
